@@ -4,7 +4,7 @@
 
 ### Week 2
 
-####Goals: 
+#### Goals: 
 DeepSynergy:
 - rewrite DeepSynergy to pytorch
 - Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
