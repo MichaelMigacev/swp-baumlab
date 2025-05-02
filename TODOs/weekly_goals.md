@@ -21,7 +21,16 @@ Both:
 | Names | Tasks | Time Taken |
 |----------|----------|----------|
 | Michael F   | Cell 2   | Cell 5   |
-| Sebastian | Cell 7   |  Cell 10  |
+| Sebastian | DeepSynergy von TensorFlow nach PyTorch übertragen
+→ Architektur (model.py) manuell in PyTorch mit nn.Sequential nachgebaut.
+Datensatz verarbeitet & geladen
+→ data_test_fold0_tanh.p erfolgreich mit pickle eingelesen, in TensorDataset umgewandelt.
+Trainings-Pipeline in PyTorch erstellt & ausgeführt
+→ train.py mit Trainings- und Validierungsschleife programmiert und mit realen Daten (über Stunden) trainiert.
+Data-Leakage-Prüfsystem entwickelt
+→ check_data_leakage.py erstellt, AB/BA-Kombinationen identifiziert (zunächst auf Testdatei, dann vorbereitet für echte Daten).
+Struktur zur Wiederverwendbarkeit vorbereitet
+→ Modell sollte per torch.save gesichert, auf GitHub geladen und mit load_model.py nachnutzbar werden.   |  Cell 10  |
 | Olha | Cell 12  |  Cell 15  |
 | Zhao  | Cell 17  |  Cell 20  |
 | Michael M  | Organized Repo  | Cell 25  |
