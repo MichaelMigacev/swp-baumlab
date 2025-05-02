@@ -37,25 +37,15 @@ Both:
 ---
 
 #### Table Week 2
-
-### Table Week 2
-
-| Names      | Tasks                                                                                                                                                                                                                                                                                                                                                                                                               | Time Taken |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Michael F  | Cell 2                                                                                                                                                                                                                                                                                                                                                                                                              | Cell 5      |
-| Sebastian  | - DeepSynergy von TensorFlow nach PyTorch übertragen  
-→ Architektur (`model.py`) manuell in PyTorch mit `nn.Sequential` nachgebaut  
-- Datensatz verarbeitet & geladen  
-→ `data_test_fold0_tanh.p` erfolgreich mit `pickle` eingelesen, in `TensorDataset` umgewandelt  
-- Trainings-Pipeline in PyTorch erstellt & ausgeführt  
-→ `train.py` mit Trainings- und Validierungsschleife programmiert und mit realen Daten (mehrstündiger Lauf) trainiert  
-- Data-Leakage-Prüfsystem entwickelt  
-→ `check_data_leakage.py` erstellt, AB/BA-Kombinationen identifiziert (Test- & Echtversion vorbereitet)  
-- Struktur zur Wiederverwendbarkeit vorbereitet  
-→ Modell speichern mit `torch.save`, Planung für GitHub-Integration und Re-Loading  
-- Einlesung in neuronale Netzwerke & Modellaufbau zur besseren Präsentation in der Gruppe | **20h**     |
-| Olha       | Cell 12                                                                                                                                                                                                                                                                                                                                                                                                             | Cell 15     |
-| Zhao       | Cell 17                                                                                                                                                                                                                                                                                                                                                                                                             | Cell 20     |
-| Michael M  | Repository-Struktur aufgebaut & Koordination  
-→ Projektordner erstellt, zentrale Dateien organisiert und Pull-Request-Strategie vorbereitet                                                                                                                               | Cell 25     |
-
+| Names      | Tasks                                                                                                                                                                                                                                                                            | Time Taken |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Michael F  | Cell 2                                                                                                                                                                                                                                                                           | Cell 5     |
+| Sebastian  | - DeepSynergy von TensorFlow nach PyTorch übertragen → Architektur (`model.py`) manuell in PyTorch mit `nn.Sequential` nachgebaut.  
+Datensatz verarbeitet & geladen → `data_test_fold0_tanh.p` erfolgreich mit `pickle` eingelesen, in `TensorDataset` umgewandelt.  
+Trainings-Pipeline in PyTorch erstellt & ausgeführt → `train.py` mit Trainings- und Validierungsschleife programmiert und mit realen Daten (mehrstündiger Lauf) trainiert.  
+Data-Leakage-Prüfsystem entwickelt → `check_data_leakage.py` erstellt, AB/BA-Kombinationen identifiziert (Test- & Echtversion vorbereitet).  
+Struktur zur Wiederverwendbarkeit vorbereitet → Modell speichern mit `torch.save`, Planung für GitHub-Integration und Re-Loading.  
+Einlesung in neuronale Netzwerke & Modellaufbau zur besseren Präsentation in der Gruppe.                                                                                 | 20h        |
+| Olha       | Cell 12                                                                                                                                                                                                                                                                          | Cell 15    |
+| Zhao       | Cell 17                                                                                                                                                                                                                                                                          | Cell 20    |
+| Michael M  | Repository-Struktur aufgebaut & Koordination → Projektordner erstellt, zentrale Dateien organisiert und Pull-Request-Strategie vorbereitet                                                                                               | Cell 25    |
