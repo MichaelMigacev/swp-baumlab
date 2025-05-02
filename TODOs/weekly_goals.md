@@ -24,5 +24,5 @@ Both:
 | Sebastian | Cell 7   | Cell 8   | Cell 9   | Cell 10  |
 | Olha | Cell 12  | Cell 13  | Cell 14  | Cell 15  |
 | Zhao  | Cell 17  | Cell 18  | Cell 19  | Cell 20  |
-| Michael M  | Cell 22  | Cell 23  | Cell 24  | Cell 25  |
+| Michael M  | Organized Repo  | Cell 23  | Cell 24  | Cell 25  |
 
