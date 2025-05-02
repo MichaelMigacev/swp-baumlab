@@ -18,7 +18,7 @@ Both:
 
 #### Table Week 2
 
-| Names | Task | Time Taken |
+| Names | Tasks | Time Taken |
 |----------|----------|----------|
 | Michael F   | Cell 2   | Cell 5   |
 | Sebastian | Cell 7   |  Cell 10  |
