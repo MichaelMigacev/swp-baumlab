@@ -24,24 +24,40 @@ Both:
 
 #### Table Week 2
 
-| Names     | Tasks | Time Taken |
-| --------- | ----- | ---------- |
-| Michael F |
-
-Hier kommst rein, was Michael F. macht
-| Time |
-| Sebastian |
-Reading into Neural Networks <br>
-Translated DeepSynergy from Tensorflow to Pytorch (need review) <br>
-DeepSynergy Modell trainiert <br>
-| 20h |
-| Olha |
-
-| Time |
-| Zhao |
-
-| Time |
-| Michael M |
-Make and Organize Repository <br>
-Write Docs for standards in code/workflow
-| Time |
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td></td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+      Reading into Neural Network basics<br>
+      Translated DeepSynergy from Tensorflow to Pytorch (REVIEW NEEDED) <br>
+    </td>
+    <td>20h</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td></td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td></td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+      Make and organize repository for future use
+    </td>
+    <td>Time</td>
+  </tr>
+</table>
