@@ -10,9 +10,6 @@
 
 ## Working with our Github Repository
 
-### Table of Contents:
-
-
 
 ### Setup
 
