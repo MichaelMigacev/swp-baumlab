@@ -11,4 +11,4 @@ venv/
 .DS_Store 
 
 ###### data-nci/ ######
-data-nci/raw_data
+DeepSignalingFlow/data-nci/raw_data
