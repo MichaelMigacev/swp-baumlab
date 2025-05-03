@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]  # Excludes .pyc, .pyo, .pyd files
+.pytest_cache/
+mypy_cache/
+# add your virtual environment here:
+venv/
+.env
+# macOS metadata
+.DS_Store 
+
+###### data-nci/ ######
+data-nci/raw_data
