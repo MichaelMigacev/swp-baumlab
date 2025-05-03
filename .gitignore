@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]  # Excludes .pyc, .pyo, .pyd files
+# Excludes .pyc, .pyo, .pyd files
+*.py[cod]  
 .pytest_cache/
 mypy_cache/
 # add your virtual environment here:
