@@ -32,8 +32,13 @@ Both:
   </tr>
   <tr>
     <td>Michael F.</td>
-    <td></td>
-    <td>Time</td>
+    <td>
+        Gained deep understanding of DeepSynergy Code Basis and made iypnb files to teach this knowledge easier (See DeepSynergy iypnb files). 
+        Gained understanding of the validation approach, open issue of how the folds were created remains however. 
+        Learned about pytorch implementation to have one coding language for both projects. Read a bit into binet, the library they used. 
+        Took a look at the data sets and a deep look at the normalisation approach and how they found their hyperparameters. 
+    </td>
+    <td> ~20h </td>
   </tr>
   <tr>
     <td>Sebastian</td>
