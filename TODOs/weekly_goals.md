@@ -55,8 +55,12 @@ Both:
   </tr>
   <tr>
     <td>Zhao</td>
-    <td></td>
-    <td>Time</td>
+    <td>
+        - Researched various biological terms related to the topic Deepsynergy and translated them into an easy-to-understand format.
+        - Uploaded an explanation-file in "Deepsynergy" 
+        - Revisited the overall concept and reviewed the code again to deepen my understanding.
+    </td>
+    <td>20h</td>
   </tr>
   <tr>
     <td>Michael M.</td>
