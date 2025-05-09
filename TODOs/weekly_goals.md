@@ -77,3 +77,59 @@ Both:
     <td>20h</td>
   </tr>
 </table>
+
+### Week 3
+
+#### Goals:
+
+DeepSynergy:
+
+
+
+DeepSignalingFlow:
+
+
+
+Both:
+
+
+
+#### Table Week 3
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+    </td>
+    <td></td>
+  </tr>
+</table>
