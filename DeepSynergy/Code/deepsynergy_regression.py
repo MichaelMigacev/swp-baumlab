@@ -17,7 +17,7 @@ import gzip
 import matplotlib.pyplot as plt
 
 hyperparameter_file = 'hyperparameters' # textfile which contains the hyperparameters of the model
-data_file = 'DeepSynergy/Code/data_test_fold0_tanh.p.gz' # pickle file which contains the data (produced with normalize.ipynb)
+data_file = 'data_test_fold0_tanh.p.gz' # pickle file which contains the data (produced with normalize.ipynb)
 
 #Our hyperparameters, the hyperparameter file is purely cosmetic currently
 layers = [8182,4096,1] 
@@ -105,7 +105,7 @@ import multiprocessing
 from lightning.pytorch.callbacks import EarlyStopping, ModelCheckpoint
 from lightning.pytorch.loggers import CSVLogger
 
-num_workers = multiprocessing.cpu_count() - 1
+num_workers = 0 #multiprocessing.cpu_count() - 1 UNTER WINDOWS LIEVER AUF 0
 
 # Logging + Callbacks einrichten
 early_stop_callback = EarlyStopping(
