@@ -12,3 +12,6 @@ venv/
 
 ###### data-nci/ ######
 DeepSignalingFlow/data-nci/raw_data
+
+###### data-drugcomb-fi/ ######
+.DeepSignalingFlow/data-drugcomb-fi/form_data/xTr2.npy
