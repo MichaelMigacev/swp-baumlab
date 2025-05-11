@@ -14,4 +14,7 @@ venv/
 DeepSignalingFlow/data-nci/raw_data
 
 ###### data-drugcomb-fi/ ######
-.DeepSignalingFlow/data-drugcomb-fi/form_data/xTr2.npy
+DeepSignalingFlow/train_model/data-drugcomb-fi
+DeepSignalingFlow/train_model/enc_dec
+DeepSignalingFlow/train_model/geo_loader
+DeepSignalingFlow/train_model/utils.py
