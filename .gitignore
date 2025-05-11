@@ -11,6 +11,7 @@ venv/
 .DS_Store 
 
 ###### data-nci/ ######
+dsf_training
 DeepSignalingFlow/data-nci/raw_data
 
 ###### data-drugcomb-fi/ ######
@@ -18,3 +19,6 @@ DeepSignalingFlow/train_model/data-drugcomb-fi
 DeepSignalingFlow/train_model/enc_dec
 DeepSignalingFlow/train_model/geo_loader
 DeepSignalingFlow/train_model/utils.py
+#=======
+DeepSignalingFlow/data-nci
+main
