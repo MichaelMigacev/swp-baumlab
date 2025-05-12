@@ -106,7 +106,7 @@ Both:
     <td>Michael F.</td>
     <td>
         Successfully implemented DeepSynergy and got expected MSE (though not visualized yet)
-        Unsuccessfully tried to recreate hyperparameter search, but successfully recreated normalization and made it into a usable class function.
+        Unsuccessfully tried to recreate hyperparameter search, but successfully recreated normalization and made it into a usable class function. (This took ages of trial and sadly mostly error and is still undone)
     </td>
     <td> ~21h </td>
   </tr>
