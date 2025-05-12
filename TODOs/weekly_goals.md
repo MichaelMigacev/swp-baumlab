@@ -125,8 +125,11 @@ Both:
   <tr>
     <td>Zhao</td>
     <td>
+        Data-leakage checks in cross-validation -> there is no data leakage in leave drug combunation out method
+        Discovered the provided labels.csv implements only leave-combination-out. 
+        uploaded DEEPSYNERGY_THEORY file -> I refined my understanding and wrote up a clearer, more detailed explanation.
     </td>
-    <td></td>
+    <td> 20h </td>
   </tr>
   <tr>
     <td>Michael M.</td>
