@@ -105,8 +105,10 @@ Both:
   <tr>
     <td>Michael F.</td>
     <td>
+        Successfully implemented DeepSynergy and got expected MSE (though not visualized yet)
+        Unsuccessfully tried to recreate hyperparameter search, but successfully recreated normalization and made it into a usable class function.
     </td>
-    <td></td>
+    <td> ~21h </td>
   </tr>
   <tr>
     <td>Sebastian</td>
