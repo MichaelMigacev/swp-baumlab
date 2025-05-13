@@ -107,8 +107,9 @@ Both:
     <td>
         Successfully implemented DeepSynergy and got expected MSE (though not visualized yet)
         Unsuccessfully tried to recreate hyperparameter search, but successfully recreated normalization and made it into a usable class function. (This took ages of trial and sadly mostly error and is still undone)
+        Update here: GridSearch now works, but very slowly. Not sure its gonna run even overnight.
     </td>
-    <td> ~21h </td>
+    <td> ~25h </td>
   </tr>
   <tr>
     <td>Sebastian</td>
