@@ -119,7 +119,7 @@ Both:
         Aktuell auf Fehlersuche: Baselines performen auffällig besser als DeepSynergy
     <td>
     </td>
-    <td></td>
+    <td>22h</td>
   </tr>
   <tr>
     <td>Olha</td>
