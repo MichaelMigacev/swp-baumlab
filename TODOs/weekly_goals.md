@@ -114,10 +114,8 @@ Both:
   <tr>
     <td>Sebastian</td>
       <td>
-        Implementation Random Forest und Ridge Regression als Baselines
-        Verwendete Nested Cross-Validation mit GridSearch
-        Arbeitete mit tanh-normalisierten DeepSynergy-Daten
-        Aktuell auf Fehlersuche: Baselines performen auffällig besser als DeepSynergy
+        - Implementation Random Forest und Ridge Regression als Baselines
+        - Aktuell auf Fehlersuche: Baselines performen auffällig besser als DeepSynergy
     </td>
     <td>22h</td>
   </tr>
