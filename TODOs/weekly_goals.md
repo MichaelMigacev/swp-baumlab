@@ -122,8 +122,11 @@ Both:
   <tr>
     <td>Olha</td>
     <td>
+      - Researched the preprocessing of data for DeepSignalingFlow (based on the original code of the authors) <br>
+      - Recreated the data for training the model (it took about two hours to get just one out of four datasets processed) <br>
+      - Started training the model on one ready dataset (but never finished due to computational resource limitations) -> will continue working on it in the next week
     </td>
-    <td></td>
+    <td>20h</td>
   </tr>
   <tr>
     <td>Zhao</td>
