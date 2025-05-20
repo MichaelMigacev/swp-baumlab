@@ -148,6 +148,9 @@ Both:
   </tr>
 </table>
 
+### Week 4
+
+
 #### Table Week 4
 
 <table>
@@ -171,8 +174,10 @@ Both:
   <tr>
     <td>Olha</td>
     <td>
+    - Refined the code for training the DSF model ( + added functions to save the state of the training) <br>
+    - Started trainig the DSF model on one of the datasets.
     </td>
-    <td>20h</td>
+    <td>10h</td>
   </tr>
   <tr>
     <td>Zhao</td>
@@ -189,3 +194,16 @@ Both:
     <td>~10h</td>
   </tr>
 </table>
+
+### Week 5
+
+#### Goals:
+
+DeepSynergy:
+
+
+
+DeepSignalingFlow (notes): 
+
+- Hyperparameter tuning (at least learning rate)
+- 5-fold cross validation
