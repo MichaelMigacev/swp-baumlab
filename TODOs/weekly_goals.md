@@ -140,9 +140,9 @@ Both:
   <tr>
     <td>Michael M.</td>
     <td>
-        - Researched DSF Preprocessing
-        - Recreated DSF Preprocessing in a detailed .ipynb file
-        - found a huge data leakage (depending on files used in final results by authors)
+        - Researched DSF Preprocessing <br>
+        - Recreated DSF Preprocessing in a detailed .ipynb file <br>
+        - found a huge data leakage (depending on files used in final results by authors) 
     </td>
     <td>20h</td>
   </tr>
@@ -183,7 +183,9 @@ Both:
   <tr>
     <td>Michael M.</td>
     <td>
+        - continuation of full explanation for the GNN <br>
+        - found some minor bugs
     </td>
-    <td></td>
+    <td>~10h</td>
   </tr>
 </table>
