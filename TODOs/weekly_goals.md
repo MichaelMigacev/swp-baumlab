@@ -161,9 +161,9 @@ Both:
   </tr>
   <tr>
     <td>Michael F.</td>
-    <td>
+    <td> Struggled a lot with the VPN on Linux and setting up the cluster. Manually had to try and try again and had a couple of inexplainable setbacks. Currently it runs, but does kick me out after a while.
     </td>
-    <td> ~25h </td>
+    <td> ~20h </td>
   </tr>
   <tr>
     <td>Sebastian</td>
