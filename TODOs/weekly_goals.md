@@ -182,7 +182,7 @@ Both:
   <tr>
     <td>Zhao</td>
     <td>
-        - tried to finish data leakage check with my best efforts
+        - tried to finish data leakage check with my best efforts<br>
         - started with one of the explainability methods
     </td>
     <td> 20h </td>
