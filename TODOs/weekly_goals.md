@@ -209,3 +209,47 @@ DeepSignalingFlow (notes):
 
 - Hyperparameter tuning (at least learning rate)
 - 5-fold cross validation
+
+#### Table Week 4
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td> 
+    </td>
+    <td> ~20h </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+      <td>
+    </td>
+    <td>22h</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    - 
+    </td>
+    <td>10h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+        - 
+    </td>
+    <td> 20h </td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+        - preparation for training <br>
+        - complete explanation of the GNN (line for line)
+    </td>
+    <td>~25h</td>
+  </tr>
+</table>
