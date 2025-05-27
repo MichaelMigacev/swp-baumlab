@@ -167,7 +167,7 @@ Both:
   </tr>
   <tr>
     <td>Sebastian</td>
-      <td>
+      <td> Replicate and evaluate baseline models for drug synergy prediction on the cluster. Finally it worked and the results are as expected! Solid baseline for future work with deep learning models and XAI tools. I already got an Overview over SHAP and deepSHAP.
     </td>
     <td>22h</td>
   </tr>
