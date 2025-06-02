@@ -233,9 +233,10 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Olha</td>
     <td>
-    - 
+    - Revised the code for training </br>
+     - Trained models (solved the issues in process)
     </td>
-    <td>10h</td>
+    <td>20h</td>
   </tr>
   <tr>
     <td>Zhao</td>
