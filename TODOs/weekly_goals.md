@@ -220,9 +220,9 @@ DeepSignalingFlow (notes):
   </tr>
   <tr>
     <td>Michael F.</td>
-    <td> 
+    <td> Started implementing SHAP. Currently SHAP Code seems to be working, but I tried working a lot with it just to notice after way too late that the shap code works but for some reason the model always predicts the same aka nothing. Currently trying to find out why. Once that works everything should be fine.
     </td>
-    <td> ~20h </td>
+    <td> ~22h </td>
   </tr>
   <tr>
     <td>Sebastian</td>
