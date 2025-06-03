@@ -226,9 +226,9 @@ DeepSignalingFlow (notes):
   </tr>
   <tr>
     <td>Sebastian</td>
-      <td>
+      <td> Trained the DeepSynergy Model to use it for DeepShap. Afterwards just Errors accured! Searched for Solutions.. 
     </td>
-    <td>22h</td>
+    <td>20h</td>
   </tr>
   <tr>
     <td>Olha</td>
