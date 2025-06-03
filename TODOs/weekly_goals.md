@@ -241,7 +241,7 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Zhao</td>
     <td>
-        - tried implement integrated gradients as explainability method </br>
+        - tried implement integrated gradients as explainability method for deepsynergy </br>
     </td>
     <td> 20h </td>
   </tr>
