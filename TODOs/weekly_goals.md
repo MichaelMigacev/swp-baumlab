@@ -290,8 +290,10 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Olha</td>
     <td>
+      - Trained DSF (5 fold cross validation on O'Neil dataset) <br>
+      - Analysed the results
     </td>
-    <td>20h</td>
+    <td>25h</td>
   </tr>
   <tr>
     <td>Zhao</td>
