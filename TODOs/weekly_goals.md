@@ -226,7 +226,7 @@ DeepSignalingFlow (notes):
   </tr>
   <tr>
     <td>Sebastian</td>
-      <td> Trained the DeepSynergy Model to use it for DeepShap. Afterwards just Errors accured! Searched for Solutions.. 
+      <td> DeepSynergy model trained for DeepSHAP. Then struggled almost exclusively with error messages. Invested many hours in debugging and problem solving..
     </td>
     <td>20h</td>
   </tr>
@@ -284,6 +284,7 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Sebastian</td>
       <td>
+   Trained DeepSynergy model repeatedly and tried extensively on the cluster to get SHAP visualisations running with DeepExplainer. Many errors with conversion, IPython, SHAP compatibility, force_plot. Almost all of my working time was spent analysing errors & SHAP workarounds
     </td>
     <td>22h</td>
   </tr>
