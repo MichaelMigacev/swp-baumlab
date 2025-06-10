@@ -299,8 +299,7 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Zhao</td>
     <td>
-    - Implemented Integrated Gradients and generated corresponding visualizations
-
+    - Implemented Integrated Gradients and generated corresponding visualizations <br>
     - Continued analyzing the model’s explainability using Permutation Importance, Partial Dependence Plots (PDP) and other techniques.
     
     </td>
