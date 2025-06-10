@@ -300,7 +300,8 @@ DeepSignalingFlow (notes):
     <td>Zhao</td>
     <td>
     - Implemented Integrated Gradients and generated corresponding visualizations <br>
-    - Continued analyzing the model’s explainability using Permutation Importance, Partial Dependence Plots (PDP) and other techniques.
+    - Continued analyzing the model’s explainability using Permutation Importance, Partial Dependence Plots (PDP) and other techniques.<br>
+    - Debugged my code ...
     </td>
     <td> 20h </td>
   </tr>
