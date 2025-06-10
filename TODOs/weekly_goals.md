@@ -301,7 +301,6 @@ DeepSignalingFlow (notes):
     <td>
     - Implemented Integrated Gradients and generated corresponding visualizations <br>
     - Continued analyzing the model’s explainability using Permutation Importance, Partial Dependence Plots (PDP) and other techniques.
-    
     </td>
     <td> 20h </td>
   </tr>
