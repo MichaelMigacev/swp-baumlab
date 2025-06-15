@@ -278,6 +278,8 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Michael F.</td>
     <td> 
+Implemented feature ablation
+Implemented Shap by group, heatmap,  and tried unsuccessfully to use correctly assign the groupü names to the features
     </td>
     <td> ~20h </td>
   </tr>
