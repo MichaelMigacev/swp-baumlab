@@ -340,8 +340,10 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Michael F.</td>
     <td> 
+        Finally fixed the naming scheme
+        Started on the iypnb for a presentation and expanded the commentary on the code basis
     </td>
-    <td> ~20h </td>
+    <td> ~19h </td>
   </tr>
   <tr>
     <td>Sebastian</td>
