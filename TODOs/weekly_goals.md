@@ -314,3 +314,59 @@ DeepSignalingFlow (notes):
     <td>~25h</td>
   </tr>
 </table>
+
+### Week 7
+
+#### Goals:
+
+DeepSynergy:
+
+
+
+DeepSignalingFlow (notes): 
+
+
+
+#### Table Week 7
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td> 
+    </td>
+    <td> ~20h </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+      <td>
+
+    </td>
+    <td>22h</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+      
+    </td>
+    <td>25h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    
+    </td>
+    <td> 20h </td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+       
+    </td>
+    <td>~25h</td>
+  </tr>
+</table>
