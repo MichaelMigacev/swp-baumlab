@@ -352,6 +352,8 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Olha</td>
     <td>
+    - Applied Pytorch's GNN explainer to the DSF model </br>
+    - Explained one drug pair as an example (with visualizations)
     </td>
     <td>25h</td>
   </tr>
