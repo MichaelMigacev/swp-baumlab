@@ -344,28 +344,24 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Sebastian</td>
       <td>
-
     </td>
     <td>22h</td>
   </tr>
   <tr>
     <td>Olha</td>
     <td>
-      
     </td>
     <td>25h</td>
   </tr>
   <tr>
     <td>Zhao</td>
     <td>
-    
     </td>
     <td> 20h </td>
   </tr>
   <tr>
     <td>Michael M.</td>
-    <td>
-       
+    <td> 
     </td>
     <td>~25h</td>
   </tr>
