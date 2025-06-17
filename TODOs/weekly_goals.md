@@ -348,8 +348,9 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Sebastian</td>
       <td>
+          -Still tried to make my deepshap code run on deepsynergy - didnt work! So I rebuilt michaels code.. finally I got results. Out of this succsess I tried to start with Permutation Feature Importance. The code is running right now! 
     </td>
-    <td>22h</td>
+    <td>20h</td>
   </tr>
   <tr>
     <td>Olha</td>
