@@ -371,8 +371,10 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Michael M.</td>
     <td> 
+        - Preperation for the GNN presentation <br>
+        - Additional research into explaination
     </td>
-    <td>~25h</td>
+    <td>~20h</td>
   </tr>
 </table>
 
@@ -437,8 +439,9 @@ Both:
   <tr>
     <td>Michael M.</td>
     <td>
-
+    - Running Explanations <br>
+    - Generating First Explaining Graphs
     </td>
-    <td></td>
+    <td>~20</td>
   </tr>
 </table>
