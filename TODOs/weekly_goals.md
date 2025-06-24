@@ -375,3 +375,70 @@ DeepSignalingFlow (notes):
     <td>~25h</td>
   </tr>
 </table>
+
+
+
+### Week 8
+
+#### Goals:
+
+DeepSynergy:
+
+-   rewrite DeepSynergy to PyTorch
+-   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
+
+DeepSignalingFlow:
+
+-   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
+-   Understanding all the operations of DSF with corresponding code pieces and present to group
+    -   copy DSF elements to our GitHub
+
+Both:
+
+-   understand validation standard (leave blablabla out) for data leakage free validation
+    -   test with DS
+
+#### Table Week 8
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+
+    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+
+    </td>
+    <td></td>
+  </tr>
+</table>
