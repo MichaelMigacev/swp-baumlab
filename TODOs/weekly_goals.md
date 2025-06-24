@@ -363,7 +363,7 @@ DeepSignalingFlow (notes):
   <tr>
     <td>Zhao</td>
     <td>
-        - tried to implement Pathway Enrichment
+        - tried to implement Pathway Enrichment</br>
         - started with documentation, preparing for the final-presentation
     </td>
     <td> 20h </td>
