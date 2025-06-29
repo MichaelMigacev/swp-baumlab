@@ -425,9 +425,9 @@ Both:
   <tr>
     <td>Olha</td>
     <td>
-
+    - Continued explaining the DSF model using GNN Explainer from pytorch.
     </td>
-    <td></td>
+    <td>20 h</td>
   </tr>
   <tr>
     <td>Zhao</td>
