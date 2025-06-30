@@ -418,9 +418,9 @@ Both:
   <tr>
     <td>Sebastian</td>
     <td>
-
+Working on the Presentation / Documentation
     </td>
-    <td></td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Olha</td>
