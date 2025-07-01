@@ -435,7 +435,7 @@ Working on the Presentation / Documentation
     - Finished Enrichment for toxicophore <br>
     - Preparation for final presentation
     </td>
-    <td></td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Michael M.</td>
