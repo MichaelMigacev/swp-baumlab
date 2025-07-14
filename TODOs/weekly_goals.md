@@ -2,7 +2,7 @@
 
 ##### This contains our weekly goals as well as the tracked worked on tasks
 
-### Week 2
+### Week 2 (21.04-27.04)
 
 #### Goals:
 
@@ -78,7 +78,7 @@ Both:
   </tr>
 </table>
 
-### Week 3
+### Week 3 (28.04-04.05)
 
 #### Goals:
 
@@ -148,7 +148,7 @@ Both:
   </tr>
 </table>
 
-### Week 4
+### Week 4 (05.05-11.05)
 
 
 #### Table Week 4
@@ -197,7 +197,7 @@ Both:
   </tr>
 </table>
 
-### Week 5
+### Week 5 (12.05-18.05)
 
 #### Goals:
 
@@ -255,7 +255,7 @@ DeepSignalingFlow (notes):
   </tr>
 </table>
 
-### Week 6
+### Week 6 (19.05-25.05)
 
 #### Goals:
 
@@ -317,7 +317,7 @@ Implemented Shap by group, heatmap,  and tried unsuccessfully to use correctly a
   </tr>
 </table>
 
-### Week 7
+### Week 7  (26.05-01.06)
 
 #### Goals:
 
@@ -380,7 +380,7 @@ DeepSignalingFlow (notes):
 
 
 
-### Week 8
+### Week 8 (02.06-08.06)
 
 #### Goals:
 
@@ -401,6 +401,341 @@ Both:
     -   test with DS
 
 #### Table Week 8
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+
+    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+Working on the Presentation / Documentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    </td>
+    <td>20 h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    - Finished Enrichment for toxicophore <br>
+    - Preparation for final presentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+    - Running Explanations <br>
+    - Generating First Explaining Graphs
+    </td>
+    <td>~20</td>
+  </tr>
+</table>
+
+### Week 9 (09.06-15.06)
+
+#### Goals:
+
+DeepSynergy:
+
+-   rewrite DeepSynergy to PyTorch
+-   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
+
+DeepSignalingFlow:
+
+-   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
+-   Understanding all the operations of DSF with corresponding code pieces and present to group
+    -   copy DSF elements to our GitHub
+
+Both:
+
+-   understand validation standard (leave blablabla out) for data leakage free validation
+    -   test with DS
+
+#### Table Week 9
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+
+    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+Working on the Presentation / Documentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    </td>
+    <td>20 h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    - Finished Enrichment for toxicophore <br>
+    - Preparation for final presentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+    - Running Explanations <br>
+    - Generating First Explaining Graphs
+    </td>
+    <td>~20</td>
+  </tr>
+</table>
+
+### Week 10 (16.06-22.06)
+
+#### Goals:
+
+DeepSynergy:
+
+-   rewrite DeepSynergy to PyTorch
+-   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
+
+DeepSignalingFlow:
+
+-   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
+-   Understanding all the operations of DSF with corresponding code pieces and present to group
+    -   copy DSF elements to our GitHub
+
+Both:
+
+-   understand validation standard (leave blablabla out) for data leakage free validation
+    -   test with DS
+
+#### Table Week 10
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+
+    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+Working on the Presentation / Documentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    </td>
+    <td>20 h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    - Finished Enrichment for toxicophore <br>
+    - Preparation for final presentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+    - Running Explanations <br>
+    - Generating First Explaining Graphs
+    </td>
+    <td>~20</td>
+  </tr>
+</table>
+
+### Week 11 (23.06-29.06)
+
+#### Goals:
+
+DeepSynergy:
+
+-   rewrite DeepSynergy to PyTorch
+-   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
+
+DeepSignalingFlow:
+
+-   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
+-   Understanding all the operations of DSF with corresponding code pieces and present to group
+    -   copy DSF elements to our GitHub
+
+Both:
+
+-   understand validation standard (leave blablabla out) for data leakage free validation
+    -   test with DS
+
+#### Table Week 11
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+
+    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+Working on the Presentation / Documentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    </td>
+    <td>20 h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    - Finished Enrichment for toxicophore <br>
+    - Preparation for final presentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+    - Running Explanations <br>
+    - Generating First Explaining Graphs
+    </td>
+    <td>~20</td>
+  </tr>
+</table>
+
+### Week 12 (30.06-06.07)
+
+#### Goals:
+
+DeepSynergy:
+
+-   rewrite DeepSynergy to PyTorch
+-   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
+
+DeepSignalingFlow:
+
+-   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
+-   Understanding all the operations of DSF with corresponding code pieces and present to group
+    -   copy DSF elements to our GitHub
+
+Both:
+
+-   understand validation standard (leave blablabla out) for data leakage free validation
+    -   test with DS
+
+#### Table Week 12
+
+<table>
+  <tr>
+    <th>Names</th>
+    <th>Tasks</th>
+    <th>Time Taken</th>
+  </tr>
+  <tr>
+    <td>Michael F.</td>
+    <td>
+
+    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Sebastian</td>
+    <td>
+Working on the Presentation / Documentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Olha</td>
+    <td>
+    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    </td>
+    <td>20 h</td>
+  </tr>
+  <tr>
+    <td>Zhao</td>
+    <td>
+    - Finished Enrichment for toxicophore <br>
+    - Preparation for final presentation
+    </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Michael M.</td>
+    <td>
+    - Running Explanations <br>
+    - Generating First Explaining Graphs
+    </td>
+    <td>~20</td>
+  </tr>
+</table>
+
+### Week 13 (07.07-13.07)
+
+#### Goals:
+
+DeepSynergy:
+
+-   rewrite DeepSynergy to PyTorch
+-   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
+
+DeepSignalingFlow:
+
+-   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
+-   Understanding all the operations of DSF with corresponding code pieces and present to group
+    -   copy DSF elements to our GitHub
+
+Both:
+
+-   understand validation standard (leave blablabla out) for data leakage free validation
+    -   test with DS
+
+#### Table Week 13
 
 <table>
   <tr>
