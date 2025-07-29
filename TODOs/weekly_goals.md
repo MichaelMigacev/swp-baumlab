@@ -492,7 +492,8 @@ Working on the Presentation / Documentation
   <tr>
     <td>Olha</td>
     <td>
-    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    - Explored other Explanation techniques for the GNNs <br>
+    - Tried out creating explanation graphs (not really successful)
     </td>
     <td>20 h</td>
   </tr>
@@ -559,7 +560,8 @@ Working on the Presentation / Documentation
   <tr>
     <td>Olha</td>
     <td>
-    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    - Continued struggling with the Graph explanations <br>
+    - Find out that the model trained on O'Neil dataset predicts correctly but for the wrong reasons (-_-)
     </td>
     <td>20 h</td>
   </tr>
@@ -626,7 +628,8 @@ Working on the Presentation / Documentation
   <tr>
     <td>Olha</td>
     <td>
-    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    - REsearched other explanation techniques for GNNs <br>
+    - Meanwhile trying to check whether only one model (trained on O'Neil data) acts strangely or others too
     </td>
     <td>20 h</td>
   </tr>
@@ -693,7 +696,7 @@ Working on the Presentation / Documentation
   <tr>
     <td>Olha</td>
     <td>
-    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    - Worked on the final presentation
     </td>
     <td>20 h</td>
   </tr>
@@ -760,7 +763,7 @@ Working on the Presentation / Documentation
   <tr>
     <td>Olha</td>
     <td>
-    - Continued explaining the DSF model using GNN Explainer from pytorch.
+    - Checked up the code, wrote some more comments and tried to bring it to a consistent format.
     </td>
     <td>20 h</td>
   </tr>
