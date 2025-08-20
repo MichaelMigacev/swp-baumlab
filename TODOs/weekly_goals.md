@@ -82,15 +82,6 @@ Both:
 
 #### Goals:
 
-DeepSynergy:
-
-
-
-DeepSignalingFlow:
-
-
-
-Both:
 
 
 
@@ -201,10 +192,6 @@ Both:
 
 #### Goals:
 
-DeepSynergy:
-
-
-
 DeepSignalingFlow (notes): 
 
 - Hyperparameter tuning (at least learning rate)
@@ -258,12 +245,6 @@ DeepSignalingFlow (notes):
 ### Week 6 (19.05-25.05)
 
 #### Goals:
-
-DeepSynergy:
-
-
-
-DeepSignalingFlow (notes): 
 
 
 
@@ -321,11 +302,7 @@ Implemented Shap by group, heatmap,  and tried unsuccessfully to use correctly a
 
 #### Goals:
 
-DeepSynergy:
 
-
-
-DeepSignalingFlow (notes): 
 
 
 
@@ -384,21 +361,7 @@ DeepSignalingFlow (notes):
 
 #### Goals:
 
-DeepSynergy:
 
--   rewrite DeepSynergy to PyTorch
--   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
-
-DeepSignalingFlow:
-
--   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
--   Understanding all the operations of DSF with corresponding code pieces and present to group
-    -   copy DSF elements to our GitHub
-
-Both:
-
--   understand validation standard (leave blablabla out) for data leakage free validation
-    -   test with DS
 
 #### Table Week 8
 
@@ -451,21 +414,7 @@ Working on the Presentation / Documentation
 
 #### Goals:
 
-DeepSynergy:
 
--   rewrite DeepSynergy to PyTorch
--   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
-
-DeepSignalingFlow:
-
--   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
--   Understanding all the operations of DSF with corresponding code pieces and present to group
-    -   copy DSF elements to our GitHub
-
-Both:
-
--   understand validation standard (leave blablabla out) for data leakage free validation
-    -   test with DS
 
 #### Table Week 9
 
@@ -508,8 +457,8 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael M.</td>
     <td>
-    - Running Explanations <br>
-    - Generating First Explaining Graphs
+    - Reproducing Explanations from Paper <br>
+    - Generating Graph from Paper
     </td>
     <td>~20</td>
   </tr>
@@ -519,21 +468,7 @@ Working on the Presentation / Documentation
 
 #### Goals:
 
-DeepSynergy:
 
--   rewrite DeepSynergy to PyTorch
--   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
-
-DeepSignalingFlow:
-
--   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
--   Understanding all the operations of DSF with corresponding code pieces and present to group
-    -   copy DSF elements to our GitHub
-
-Both:
-
--   understand validation standard (leave blablabla out) for data leakage free validation
-    -   test with DS
 
 #### Table Week 10
 
@@ -576,8 +511,7 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael M.</td>
     <td>
-    - Running Explanations <br>
-    - Generating First Explaining Graphs
+    - Implementing own Explanation Graphs 
     </td>
     <td>~20</td>
   </tr>
@@ -587,21 +521,7 @@ Working on the Presentation / Documentation
 
 #### Goals:
 
-DeepSynergy:
 
--   rewrite DeepSynergy to PyTorch
--   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
-
-DeepSignalingFlow:
-
--   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
--   Understanding all the operations of DSF with corresponding code pieces and present to group
-    -   copy DSF elements to our GitHub
-
-Both:
-
--   understand validation standard (leave blablabla out) for data leakage free validation
-    -   test with DS
 
 #### Table Week 11
 
@@ -644,8 +564,8 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael M.</td>
     <td>
-    - Running Explanations <br>
-    - Generating First Explaining Graphs
+    - Implementing own Explanation Graphs <br>
+    - Researching alternative XAI GNN plotting methods
     </td>
     <td>~20</td>
   </tr>
@@ -655,21 +575,7 @@ Working on the Presentation / Documentation
 
 #### Goals:
 
-DeepSynergy:
 
--   rewrite DeepSynergy to PyTorch
--   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
-
-DeepSignalingFlow:
-
--   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
--   Understanding all the operations of DSF with corresponding code pieces and present to group
-    -   copy DSF elements to our GitHub
-
-Both:
-
--   understand validation standard (leave blablabla out) for data leakage free validation
-    -   test with DS
 
 #### Table Week 12
 
@@ -711,8 +617,7 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael M.</td>
     <td>
-    - Running Explanations <br>
-    - Generating First Explaining Graphs
+    - Using alternative Graph vizualizations 
     </td>
     <td>~20</td>
   </tr>
@@ -722,21 +627,7 @@ Working on the Presentation / Documentation
 
 #### Goals:
 
-DeepSynergy:
 
--   rewrite DeepSynergy to PyTorch
--   Understand input for DS (DeepSynergy) mostly (with biological details) and present to group
-
-DeepSignalingFlow:
-
--   Understand input for DSF (DeepSignalingFlow) mostly (with biological details) and present to group
--   Understanding all the operations of DSF with corresponding code pieces and present to group
-    -   copy DSF elements to our GitHub
-
-Both:
-
--   understand validation standard (leave blablabla out) for data leakage free validation
-    -   test with DS
 
 #### Table Week 13
 
@@ -778,8 +669,7 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael M.</td>
     <td>
-    - Running Explanations <br>
-    - Generating First Explaining Graphs
+    - Combining Alternative Graph Vizualizations with own Explanations
     </td>
     <td>~20</td>
   </tr>
