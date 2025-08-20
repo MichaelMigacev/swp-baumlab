@@ -13,6 +13,8 @@ venv/
 ###### data-nci/ ######
 dsf_training
 DeepSignalingFlow/data-nci/raw_data
+DeepSignalingFlow/Micha/data-nci/raw_data
+DeepSignalingFlow/Micha/data-nci
 
 ###### data-drugcomb-fi/ ######
 DeepSignalingFlow/train_model/data-drugcomb-fi
