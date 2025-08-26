@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 from model import Encoder, LitAutoEncoder
 import json
-import math  # für isnan
+import math  # for isnan
 import random
 import numpy as np
 
@@ -28,6 +28,7 @@ class SynergyDataModule(L.LightningDataModule):
     def prepare_data(self):
         X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, index_names, f_feature_origin, f_feature_group = load_data(self.data_file)
         
+        # Create TensorDatasets for train, validation, test
         self.train_data = TensorDataset(torch.FloatTensor(X_train), torch.FloatTensor(y_train))
         self.val_data = TensorDataset(torch.FloatTensor(X_val), torch.FloatTensor(y_val))
         self.test_data = TensorDataset(torch.FloatTensor(X_test), torch.FloatTensor(y_test))
@@ -43,17 +44,15 @@ class SynergyDataModule(L.LightningDataModule):
     def test_dataloader(self):
         return DataLoader(self.test_data, batch_size=self.batch_size)
 
-# 3. Manual Grid Search mit Verbesserungen
-# CHANGE HERE
+# 3. Manual Grid Search with improvements
 def run_manual_grid_search(data_file="test0val1normtanh.p.gz", seed=42):
-    # Seed setzen für Reproduzierbarkeit
-    # Python & NumPy & PyTorch
+    # Set seeds for reproducibility
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
 
-    # Für deterministische CUDA-Berechnung (langsamer, aber reproduzierbar)
+    # Deterministic CUDA computation (slower but reproducible)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
     
@@ -78,17 +77,16 @@ def run_manual_grid_search(data_file="test0val1normtanh.p.gz", seed=42):
 
     # Create results directory
     os.makedirs("grid_search_results", exist_ok=True)
-    #CHANGE HERE
     results_file = f"grid_search_results/resultstest0val1normtanh.csv"
     
-    # Write header
+    # Write CSV header
     with open(results_file, "w") as f:
         f.write("hidden_layers,learning_rate,dropout_input,dropout_hidden,val_loss,test_loss\n")
     
     best_val_loss = float('inf')
     best_config = None
     
-    # Generate all combinations
+    # Generate all combinations from the search space
     for config in product(*search_space.values()):
         layers, lr, dropout = config
         early_stop = True
@@ -138,20 +136,20 @@ def run_manual_grid_search(data_file="test0val1normtanh.p.gz", seed=42):
             test_result = trainer.test(model, datamodule=datamodule)
             test_loss = test_result[0]["test_loss"]
             
-            # Prüfe ob NaN in Loss
+            # Skip runs with NaN losses
             if math.isnan(val_loss) or math.isnan(test_loss):
-                print(f"Warnung: NaN Loss bei config {layers}, lr={lr}")
-                continue  # skip this run
+                print(f"Warning: NaN loss for config {layers}, lr={lr}")
+                continue
             
         except Exception as e:
-            print(f"Fehler bei config {layers}, lr={lr}: {e}")
-            continue  # Fehler überspringen, weiter mit nächster Config
+            print(f"Error for config {layers}, lr={lr}: {e}")
+            continue  # skip to next configuration
         
-        # Save results
+        # Save results to CSV
         with open(results_file, "a") as f:
             f.write(f"{str(layers)},{lr},{dropout['input']},{dropout['hidden']},{val_loss},{test_loss}\n")
         
-        # Track best config
+        # Track best configuration
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             best_config = {
@@ -166,7 +164,7 @@ def run_manual_grid_search(data_file="test0val1normtanh.p.gz", seed=42):
     print("\nBest configuration found:")
     print(best_config)
     
-    # Save best config
+    # Save best configuration as JSON
     with open(f"grid_search_results/best_config_tanh.json", "w") as f:
         json.dump(best_config, f)
     
