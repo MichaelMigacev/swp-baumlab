@@ -374,9 +374,9 @@ Implemented Shap by group, heatmap,  and tried unsuccessfully to use correctly a
   <tr>
     <td>Michael F.</td>
     <td>
-
+    - implemented the new grouping for several files and used it
     </td>
-    <td> </td>
+    <td> 19 </td>
   </tr>
   <tr>
     <td>Sebastian</td>
@@ -427,9 +427,9 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael F.</td>
     <td>
-
+    Also applied code to all normalisation methods not just one and visualised them
     </td>
-    <td> </td>
+    <td> 20 </td>
   </tr>
   <tr>
     <td>Sebastian</td>
@@ -481,9 +481,10 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael F.</td>
     <td>
-
+    - Wrote code for several visualisations <br>
+    - Created metrics.py to compare model
     </td>
-    <td> </td>
+    <td> 21 </td>
   </tr>
   <tr>
     <td>Sebastian</td>
@@ -534,9 +535,10 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael F.</td>
     <td>
-
+    - Created group.py and used grouping for feature ablation
+    - Retrained a couple of things and cleaned up code
     </td>
-    <td> </td>
+    <td> 20 </td>
   </tr>
   <tr>
     <td>Sebastian</td>
@@ -588,9 +590,9 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael F.</td>
     <td>
-
+    - Preparation for final presentation and creating summaries for presentation
     </td>
-    <td> </td>
+    <td> 20 </td>
   </tr>
   <tr>
     <td>Sebastian</td>
@@ -640,9 +642,9 @@ Working on the Presentation / Documentation
   <tr>
     <td>Michael F.</td>
     <td>
-
+Working on the Presentation / Documentation
     </td>
-    <td> </td>
+    <td> 20 </td>
   </tr>
   <tr>
     <td>Sebastian</td>
