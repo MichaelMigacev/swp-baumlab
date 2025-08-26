@@ -109,5 +109,5 @@ class LitAutoEncoder(L.LightningModule):
 
 def load_data(data_file):
     with gzip.open(data_file, 'rb') as file:
-        X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, feature_names = pickle.load(file)
-    return X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, feature_names
+        X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, index_names, f_feature_origin, f_feature_group = pickle.load(file)
+    return X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, index_names, f_feature_origin, f_feature_group
