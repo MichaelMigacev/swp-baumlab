@@ -27,8 +27,8 @@ LAYERS = [8192, 4096, 1]
 INPUT_DROPOUT = 0.2
 HIDDEN_DROPOUT = 0.5
 
-model_path = "/home/mi/michaef01/Dokumente/PSem/saved_models/test0val1normtanh_norm.p_model.pt"
-data_file = "/home/mi/michaef01/Dokumente/PSem/test0val1normtanh_norm.p.gz"
+model_path = "/saved_models/test0val1normtanh_norm.p_model.pt"
+data_file = "/test0val1normtanh_norm.p.gz"
 output_dir = "shap_outputs"
 os.makedirs(output_dir, exist_ok=True)
 
