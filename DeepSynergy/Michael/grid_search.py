@@ -26,7 +26,7 @@ class SynergyDataModule(L.LightningDataModule):
         self.batch_size = batch_size
         
     def prepare_data(self):
-        X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, index_names, filtered_feature_origin = load_data(self.data_file)
+        X_tr, X_val, X_train, X_test, y_tr, y_val, y_train, y_test, index_names, f_feature_origin, f_feature_group = load_data(self.data_file)
         
         self.train_data = TensorDataset(torch.FloatTensor(X_train), torch.FloatTensor(y_train))
         self.val_data = TensorDataset(torch.FloatTensor(X_val), torch.FloatTensor(y_val))
@@ -45,7 +45,7 @@ class SynergyDataModule(L.LightningDataModule):
 
 # 3. Manual Grid Search mit Verbesserungen
 # CHANGE HERE
-def run_manual_grid_search(data_file="test0val1normtanh_norm.p.gz", seed=42):
+def run_manual_grid_search(data_file="test0val1normtanh.p.gz", seed=42):
     # Seed setzen für Reproduzierbarkeit
     # Python & NumPy & PyTorch
     random.seed(seed)
@@ -79,7 +79,7 @@ def run_manual_grid_search(data_file="test0val1normtanh_norm.p.gz", seed=42):
     # Create results directory
     os.makedirs("grid_search_results", exist_ok=True)
     #CHANGE HERE
-    results_file = f"grid_search_results/resultstest0val1normtanh_norm.csv"
+    results_file = f"grid_search_results/resultstest0val1normtanh.csv"
     
     # Write header
     with open(results_file, "w") as f:
@@ -113,14 +113,14 @@ def run_manual_grid_search(data_file="test0val1normtanh_norm.p.gz", seed=42):
         
         # Trainer setup
         trainer = L.Trainer(
-            max_epochs=40,
+            max_epochs=200,
             enable_progress_bar=True,
             enable_checkpointing=False,
             logger=False,
             callbacks=[
                 L.pytorch.callbacks.EarlyStopping(
                     monitor="val_loss",
-                    patience=5,
+                    patience=10,
                     mode="min"
                 )
             ]
@@ -167,7 +167,7 @@ def run_manual_grid_search(data_file="test0val1normtanh_norm.p.gz", seed=42):
     print(best_config)
     
     # Save best config
-    with open(f"grid_search_results/best_config.json", "w") as f:
+    with open(f"grid_search_results/best_config_tanh.json", "w") as f:
         json.dump(best_config, f)
     
     return best_config
