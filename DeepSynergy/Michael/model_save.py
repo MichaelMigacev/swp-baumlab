@@ -11,13 +11,14 @@ import numpy as np
 
 
 def set_all_seeds(seed=42):
+    """Set all seeds for reproducibility (Python, NumPy, Torch, CUDA, Lightning)."""
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)  # For multi-GPU setups
+    torch.cuda.manual_seed_all(seed)  # Ensure reproducibility on multi-GPU setups
     L.seed_everything(seed, workers=True)
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.deterministic = True  # Enforce deterministic behavior
+    torch.backends.cudnn.benchmark = False     # Disable auto-optimization for reproducibility
 
 
 def train_single_model(
@@ -28,18 +29,21 @@ def train_single_model(
     dropout={"input": 0.2, "hidden": 0.5},
     save_path=None
 ):
+    """Train, validate, test and save a single autoencoder model instance."""
+
+    # Ensure reproducibility
     set_all_seeds(seed)
 
-    # Derive save path if not provided
+    # Derive save path if none is provided
     if save_path is None:
         base_name = os.path.splitext(data_file)[0]
         save_path = f"saved_models/{base_name}_model.pt"
 
-    # Prepare data
+    # Load and prepare dataset
     datamodule = SynergyDataModule(data_file)
     datamodule.prepare_data()
 
-    # Create model
+    # Build encoder model
     encoder = Encoder(
         input_size=datamodule.input_size,
         layers=layers,
@@ -47,6 +51,7 @@ def train_single_model(
         hidden_dropout=dropout["hidden"]
     )
 
+    # Wrap encoder in Lightning module
     model = LitAutoEncoder(
         encoder=encoder,
         learning_rate=learning_rate,
@@ -55,26 +60,26 @@ def train_single_model(
         min_delta=0.5
     )
 
-    # Set up CSV logger
+    # Logger for saving metrics as CSV
     logger = CSVLogger("logs", name="synergy_model")
 
-    # Initialize trainer
+    # Initialize Lightning trainer
     trainer = L.Trainer(
         max_epochs=200,
         enable_progress_bar=True,
-        enable_checkpointing=False,
+        enable_checkpointing=False,  # No checkpoint saving (we save manually later)
         logger=logger,
         callbacks=[EarlyStopping(monitor="val_loss", patience=5, mode="min")]
     )
 
-    # Train model
+    # Train the model
     trainer.fit(model, datamodule=datamodule)
 
-    # Test model
+    # Evaluate on test set
     test_result = trainer.test(model, datamodule=datamodule)
     print(f"Test loss: {test_result[0]['test_loss']:.4f}")
 
-    # Save model weights
+    # Save trained model weights
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     torch.save(model.encoder.state_dict(), save_path)
     print(f"Model saved to: {save_path}")
