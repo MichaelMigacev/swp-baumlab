@@ -71,4 +71,6 @@ Ablation 'ECFP_6': RMSE = 17.7575 (Δ RMSE = +2.4512), MSE = 315.3304
 Ablation 'genomic': RMSE = 19.6751 (Δ RMSE = +4.3688), MSE = 387.1095
 Ablation 'phys-chem': RMSE = 15.2515 (Δ RMSE = -0.0548), MSE = 232.6078
 Ablation 'toxicophore': RMSE = 16.2144 (Δ RMSE = +0.9081), MSE = 262.9062
+
+This suggests that genomic and ECFP are the most important data points for the prediction 
 """
