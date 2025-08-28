@@ -663,7 +663,6 @@ Working on the Presentation / Documentation
   <tr>
     <td>Zhao</td>
     <td>
-    - Finished Enrichment for toxicophore <br>
     - Preparation for final presentation
     </td>
     <td>20</td>
